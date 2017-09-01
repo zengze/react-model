@@ -1,0 +1,13 @@
+{
+  "passPerPreset": true,
+  "plugins": [
+    "transform-async-to-generator",
+    ["import", {
+      "libraryName": "antd",
+      "style": false  
+      }]],
+  "presets": [
+    "es2015",
+    "stage-3"
+  ]
+}
